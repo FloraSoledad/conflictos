@@ -17,8 +17,5 @@ else if ( operacion === "dividir") {
 }
 else if ( operacion === "multiplicar") {
     resultado = calculeitor.multiplicar (numeroA, numeroB);
-}
-else if ( operacion === "potencia") {
-    resultado = calculeitor.potencia (numeroA, numeroB);
-}            
+}   
 console.log (resultado); 
