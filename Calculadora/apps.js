@@ -6,16 +6,12 @@ let numeroA = +process.argv [3];
 let numeroB = +process.argv [4];
 let resultado = 0;
 
-if ( operacion === "sumar") {
+if( operacion === "sumar") {
     resultado = calculeitor.sumar (numeroA, numeroB);
-}
-else if ( operacion === "restar") {
+}else if ( operacion === "restar") {
     resultado = calculeitor.restar (numeroA, numeroB); 
-}
-else if ( operacion === "dividir") {
+}else if ( operacion === "dividir") {
     resultado = calculeitor.dividir (numeroA, numeroB);
-}
-else if ( operacion === "multiplicar") {
+}else if ( operacion === "multiplicar") {
     resultado = calculeitor.multiplicar (numeroA, numeroB);
-}   
-console.log (resultado); 
+}
