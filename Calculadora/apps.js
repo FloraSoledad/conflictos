@@ -1,8 +1,8 @@
 const process = require('process');
 const calculeitor = require ('./calculeitor');
 
-if ( operacion === "sumar") {
-    resultado = calculeitor.sumar (numeroA, numeroB);
+if ( operacion === "suma") {
+    resultado = calculeitor.suma (numeroA, numeroB);
 }else if ( operacion === "restar") {
     resultado = calculeitor.restar (numeroA, numeroB); 
 }else if ( operacion === "dividir") {
