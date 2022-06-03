@@ -6,7 +6,7 @@ let numeroA = +process.argv [3];
 let numeroB = +process.argv [4];
 let resultado = 0;
 
-if ( operacion === "sumar") {
+if ( operacion === "sumatoria") {
     resultado = calculeitor.sumar (numeroA, numeroB);
 }
 else if ( operacion === "restar") {
