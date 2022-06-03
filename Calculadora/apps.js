@@ -21,4 +21,4 @@ else if ( operacion === "multiplicar") {
 else if ( operacion === "potencia") {
     resultado = calculeitor.potencia (numeroA, numeroB);
 }            
-console.log (resultado); 
+ 
