@@ -1,7 +1,7 @@
 const process = require('process');
 const calculeitor = require ('./calculeitor');
 
-let operacion = process.argv [2];
+let operacion = process.argv [8];
 let numeroA = +process.argv [3];
 let numeroB = +process.argv [4];
 let resultado = 0;
@@ -21,4 +21,4 @@ else if ( operacion === "multiplicar") {
 else if ( operacion === "potencia") {
     resultado = calculeitor.potencia (numeroA, numeroB);
 }            
-console.log (resultado); 
+console.log (o); 
