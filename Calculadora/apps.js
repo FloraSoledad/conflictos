@@ -10,6 +10,3 @@ else if ( operacion === "restar") {
 else if ( operacion === "dividir") {
     resultado = calculeitor.dividir (numeroA, numeroB);
 }
-else if ( operacion === "multiplicar") {
-    resultado = calculeitor.multiplicar (numeroA, numeroB);
-}
